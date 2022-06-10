@@ -1,0 +1,31 @@
+.main_container {
+    display: flex;
+    height: calc(100vh - 4.4rem);
+    margin-top: 3rem;
+    header {
+      height: 3rem;
+      width: 100%;
+      position:fixed;
+      top:0;
+      border: 1px solid #eee;
+      background-color: lightblue;
+      box-shadow: 0 0 2px rgba(1, 1, 1, 1);
+    }
+    aside {
+      width: 20rem;
+      border: 1px solid #eee;
+      background-color: lightblue;
+    }
+    main {
+      flex: 1;
+      overflow-y: auto;
+    }
+    footer {
+      height: 1.4rem;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      border: 1px solid #eee;
+      background-color: lightblue;
+    }
+}
