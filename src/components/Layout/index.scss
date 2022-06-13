@@ -1,7 +1,6 @@
 .main_container {
-    display: flex;
-    height: calc(100vh - 4.4rem);
-    margin-top: 3rem;
+  display: flex;
+  
     header {
       height: 3rem;
       width: 100%;
@@ -12,13 +11,19 @@
       box-shadow: 0 0 2px rgba(1, 1, 1, 1);
     }
     aside {
-      width: 20rem;
-      border: 1px solid #eee;
-      background-color: lightblue;
+      // width: 20rem;
+      // border: 1px solid #eee;
+      // background-color: lightblue;
+      margin-top: 3rem;
+      // height: calc(100vh - 4.4rem);
     }
     main {
       flex: 1;
       overflow-y: auto;
+      margin-top: 3rem;
+      height: calc(100vh - 4.4rem);
+      position: relative;
+
     }
     footer {
       height: 1.4rem;

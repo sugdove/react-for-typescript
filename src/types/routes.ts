@@ -1,7 +1,8 @@
 export interface RouteType {
-  id: number
+  key: number,
+  label: string,
   path: string,
-  Component: any,
-  name: string,
+  component: Function,
+  children?: Array<RouteType>,
   icon: string,
 }

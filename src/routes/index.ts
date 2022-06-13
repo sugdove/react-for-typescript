@@ -1,19 +1,27 @@
 import { RouteType } from '../types/routes'
 import Empty from '../pages/Empty'
 import Hello from '../pages/Hello'
+import Wordle from '../components/Wordle'
 export const ROUTES: Array<RouteType> = [
   {
-    id: 0,
+    key: 0,
     path: '/404',
-    Component: Empty,
-    name: '404',
+    component: Empty,
+    label: '404',
     icon: '',
   },
   {
-    id: 1,
+    key: 1,
     path: '/hello',
-    Component: Hello,
-    name: 'hello',
+    component: Hello,
+    label: 'hello',
+    icon: '',
+  },
+  {
+    key: 2,
+    path: '/wordle',
+    component: Wordle,
+    label: 'wordle',
     icon: '',
   },
 ]
